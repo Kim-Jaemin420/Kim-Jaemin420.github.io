@@ -68,6 +68,7 @@ div {
   #header .site-name {
     margin-bottom: 40px; }
     #header .site-name h1 {
+      font-size: 1.7em;
       padding: 0;
       margin: 0;
       height: 0;
@@ -167,12 +168,12 @@ div {
   color: #888; }
 
 .post {
-  padding: 25px 0 15px; }
+  padding: 25px 0 100px; }
   .post .post-title {
     margin: 0;
     color: #555;
     text-align: left;
-    font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
+    font: bold 30px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
     .post .post-title a {
       color: #555; }
   .post .post-meta {
@@ -376,6 +377,7 @@ div {
   line-height: 2;
   padding-bottom: .8em; }
   .post-archive h2 {
+    display: none;
     margin: 0;
     font: bold 25px / 1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
   .post-archive .date {
