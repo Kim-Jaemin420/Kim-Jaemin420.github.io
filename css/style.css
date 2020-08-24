@@ -231,10 +231,13 @@ div {
     text-justify: distribute;
     word-break: normal; }
     .post .post-content h2 {
+      font-size: 1.4rem;
       margin: 1.4em 0 1.1em;
       border-bottom: 1px solid #eee;
       overflow: hidden; }
     .post .post-content h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
       margin: 1.4em 0 1.1em; }
     .post .post-content pre code {
       padding: 0 2em; }
@@ -255,7 +258,7 @@ div {
         .post .post-content p a:hover {
           text-decoration: underline; }
     .post .post-content .caption {
-      color: #444;
+      color: #666;
       display: block;
       font-size: 0.9em;
       margin-top: 0.1em;
