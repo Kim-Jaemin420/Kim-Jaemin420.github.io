@@ -231,7 +231,9 @@ div {
     text-justify: distribute;
     word-break: normal; }
     .post .post-content h2 {
-      font-size: 1.4rem;
+      color: #2962ff;
+      font-weight: 900;
+      font-size: 1.5rem;
       margin: 1.4em 0 1.1em;
       border-bottom: 1px solid #eee;
       overflow: hidden; }
