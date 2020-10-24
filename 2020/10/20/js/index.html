@@ -132,7 +132,50 @@
 
 // console.log(getMaxId()); // 3
 
-// 
+// 6
+// let todos = [
+//   { id: 3, content: 'HTML', completed: false },
+//   { id: 2, content: 'CSS', completed: true },
+//   { id: 1, content: 'Javascript', completed: false }
+// ];
+
+// function toggleCompletedById(id) {
+//   return todos.map(todo => todo.id === id ? todo.completed = !todo.completed : todo.completed);
+// }
+
+// toggleCompletedById(2);
+
+// console.log(todos);
+// Object.assign({}, todo, {completed : !todo.completed});
+
+let todos = [
+  { id: 3, content: 'HTML', completed: false },
+  { id: 2, content: 'CSS', completed: true },
+  { id: 1, content: 'Javascript', completed: false }
+];
+
+function toggleCompletedById(id) {
+  return todos = todos.map(todo => todo.id === id ? {...todo, completed : !todo.completed} : todo);
+}
+
+toggleCompletedById(2);
+
+console.log(todos);
+
+// let todos = [
+//   { id: 3, content: 'HTML', completed: false },
+//   { id: 2, content: 'CSS', completed: true },
+//   { id: 1, content: 'Javascript', completed: false }
+// ];
+
+// function toggleCompletedAll() {
+//   todos = todos.map(todo => todo.completed === false ? {...todo, completed : !todo.completed} : todo);
+// }
+
+// toggleCompletedAll();
+
+// console.log(todos);
+
 let todos = [
   { id: 3, content: 'HTML', completed: false },
   { id: 2, content: 'CSS', completed: true },
@@ -140,8 +183,7 @@ let todos = [
 ];
 
 function getMaxId() {
-  return todos.reduce((arr, cur) => arr.id > cur.id ? arr.id : arr.id = cur.id);
-  
+  return todos.reduce((acc, cur) => acc > cur.id ? acc : cur.id, 0);
 }
 
 console.log(getMaxId()); // 3
